@@ -20,5 +20,12 @@
         "psr-4": {
             "Aminurdev\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aminurdev\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
